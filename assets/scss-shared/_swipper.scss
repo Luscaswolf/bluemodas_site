@@ -1,0 +1,71 @@
+.popular-itens-controller {
+
+    .swiper-wrapper {
+        padding: 0 0 2em 0;
+    }
+
+    .swiper-button-prev{
+
+        left: auto;
+        right: 5%;
+        top: 10%;
+        border: 1px solid;
+        padding: 1em;
+        width: 45px;
+
+        &:after {
+            content: '\e902';
+            font-family: 'icomoon';
+            transform: rotate(90deg);
+            font-size: 1.65em;
+        }
+    }
+
+    .swiper-button-next{
+
+        right: 0;
+        left: auto;
+        top: 10%;
+        border: 1px solid;
+        padding: 1em;
+        width: 45px;
+
+        &:after{
+            content: "\e902";
+            font-family: 'icomoon';
+            transform: rotate(-90deg);
+            font-size: 1.65em;
+        }
+    }
+
+    .swiper-button-prev, .swiper-button-next{
+        color:var(--sixth-color);
+    }
+
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets{
+        bottom: 10%;
+        left: unset;
+        right: 0;
+        top: unset;
+        width: auto;
+    }
+
+    .swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet {
+        margin: 0 5px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 13px;
+        height: 13px;
+        display: inline-block;
+        border-radius: 100%;
+        background: var(--sixth-color);
+        opacity: 0.2;
+
+        &.swiper-pagination-bullet-active {
+            opacity: 1;
+            background: var(--sixth-color);
+        }
+    }
+}
+

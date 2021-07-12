@@ -1,0 +1,8 @@
+.btn{
+    cursor: pointer;
+    height: 45px;
+    &.btn-default{
+        background: #232323;
+        color:white;
+    }
+}

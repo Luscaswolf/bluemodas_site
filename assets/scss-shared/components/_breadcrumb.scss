@@ -1,0 +1,39 @@
+  
+  #breadcrumb {
+    padding: 15px 0px;
+    background: #FBFBFC;
+    border-bottom: 1px solid #E4E7ED;
+    margin-bottom: 30px;
+    position: relative;
+  }
+
+  ul{
+    &.breadcrumb-tree {
+      display: flex;
+
+      li{
+
+        a{
+
+          font-size: .85em;
+
+          &:hover{
+            transition: all .25s;
+            font-weight: bold;
+          }
+        }
+
+        &:last-child{
+          font-weight: bold;
+          &:after {
+            content: '';
+          }
+        }
+
+        &:after {
+          content: '>';
+          margin: 0 .35em;
+        }
+      }
+    }
+  }

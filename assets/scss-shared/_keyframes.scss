@@ -1,0 +1,63 @@
+/* APPEAR TO LEFT */
+@keyframes toLeft {
+    from{
+        transform: translate(-50px, 0);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes toRight {
+    from{
+        transform: translate(50px, 0);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes toDown {
+    from{
+        transform: translate(0, -50px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+@keyframes toTop {
+    from{
+        transform: translate(0, 50px);
+        opacity: 0;
+    }
+    to{
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+
+   
+   @keyframes bounce {
+    0% {
+     opacity: 0;
+     transform: scale(.3);
+    }
+    50% {
+     opacity: 1;
+     transform: scale(1.05);
+    }
+    70% {
+     transform: scale(.9);
+    }
+    100% { 
+     transform: scale(1);
+    }
+   }

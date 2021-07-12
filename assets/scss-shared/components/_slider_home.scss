@@ -1,0 +1,72 @@
+.popular-itens{
+    //height: 650px;
+    margin: 7em 0 5em 0;
+    position: relative;
+    cursor: pointer;
+
+    .popular-card{
+        //width: 15%;
+        .popular-img{
+            width: auto;
+            text-align: center;
+            img{
+                max-height: 340px;
+            }
+        }
+    }
+
+    .popular-details{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-transform: uppercase;
+        margin: 1em 0 0 0;
+
+        .subtitle{
+            font-size: 1.2em;
+            font-weight: bold;
+
+        }
+
+        .price{
+            //position: absolute;
+            right: 10%;
+            bottom: 25%;
+            font-size: 1.6em;
+            font-weight: bold;
+            filter: drop-shadow(-3px 2px 0px white);
+            color: #232323;
+        }
+
+        .two-btn {
+            display: flex;
+            width: 100%;
+
+            .btn{
+                padding: .5em 1em !important;
+                margin: 1em 10px;
+                background: #232323;
+                color: white;
+                width: 100%;
+
+                &.btn-outline-danger{
+                    background: crimson !important;
+                    color:white !important;
+                    border-color: transparent !important;
+                }
+            }
+        }
+
+        .tag{
+            font-size: .65em;
+            background: tomato;
+            padding: .45em;
+            margin:.65em;
+            position: absolute;
+            color:white;
+            top: 0;
+            left: 0;
+        }
+    }
+}
