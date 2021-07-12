@@ -9274,7 +9274,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var environment = {
       production: false,
-      serverURL: 'https://bluemodasshopback.herokuapp.com'
+      serverURL: 'https://bluemodasshopback.herokuapp.com/api/'
     };
     /*
      * For easier debugging in development mode, you can import the following file
